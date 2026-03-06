@@ -1,4 +1,4 @@
-# bili-vision-notes-skill
+# bilibili-obsidian-notes
 
 把 B 站视频的字幕/关键帧整理成可复习的 Obsidian 学习笔记（同时提供：扫码登录、仅拉字幕、按时间点截图）。
 
@@ -14,6 +14,8 @@
 - `bili_snapshot.py`：对任意时间点截图（支持 `?t=` 或 `#t=` 跳转链接）
 
 ## 安装（Windows / PowerShell）
+
+当前 skill 的公开名称已经统一为 `bilibili-obsidian-notes`；但在你真正修改 GitHub 仓库名之前，安装地址仍然是现有仓库 `le876/bili-vision-notes-skill`。
 
 如果你是通过 Skills CLI 安装到 Codex，优先使用：
 
@@ -32,8 +34,8 @@ npx skills add https://github.com/le876/bili-vision-notes-skill
 如果你想直接克隆仓库、单独运行脚本或做二次开发，也可以手动放到你的 skills 目录（或任意目录）：
 
 ```powershell
-# 示例：克隆到 skills 目录（自行替换为你的路径/仓库地址）
-# git clone <REPO_URL> "$env:USERPROFILE\.codex\skills\bili-vision-notes-skill"
+# 示例：当前 GitHub 仓库地址仍是旧名，但本地目录可以直接使用新 skill 名
+# git clone https://github.com/le876/bili-vision-notes-skill.git "$env:USERPROFILE\.codex\skills\bilibili-obsidian-notes"
 ```
 
 安装依赖：

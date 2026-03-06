@@ -1,9 +1,9 @@
 ---
-name: bili-vision-notes-skill
+name: bilibili-obsidian-notes
 description: "Generate Obsidian study notes from Bilibili/B站 video URLs by fetching subtitles, extracting keyframes, and building timestamped Markdown note skeletons. Use when Codex needs Bilibili subtitle download, QR login, snapshots, lecture/tutorial/course note-taking, or Obsidian video-note workflows."
 ---
 
-# bili-vision-notes-skill
+# bilibili-obsidian-notes
 
 ## Quick start (Windows / PowerShell)
 

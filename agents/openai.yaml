@@ -1,4 +1,4 @@
 interface:
-  display_name: "Bili Vision Notes"
+  display_name: "Bilibili Obsidian Notes"
   short_description: "Bilibili subtitles, keyframes, and Obsidian notes"
-  default_prompt: "Use $bili-vision-notes-skill to fetch Bilibili subtitles, capture keyframes, and generate an Obsidian study note from a video URL."
+  default_prompt: "Use $bilibili-obsidian-notes to fetch Bilibili subtitles, capture keyframes, and generate an Obsidian study note from a video URL."
