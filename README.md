@@ -4,7 +4,7 @@
 
 *Turn Bilibili videos into Obsidian study notes with subtitle download, keyframe capture, targeted screenshots, and structured explanations for formulas, slides, and lecture content.*
 
-![bilibili-obsidian-notes demo](assets/readme-demo.png)
+<img src="assets/readme-demo.png" alt="bilibili-obsidian-notes demo" width="720" />
 
 > 说明：本仓库只提供工具与流程，不包含任何受版权保护的视频/字幕内容。请自行确保符合平台条款与版权要求。
 >
