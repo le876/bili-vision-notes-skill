@@ -15,7 +15,21 @@
 
 ## 安装（Windows / PowerShell）
 
-推荐把本仓库放到你的 Codex skills 目录（或任意目录也可以运行脚本）：
+如果你是通过 Skills CLI 安装到 Codex，优先使用：
+
+```powershell
+npx skills add le876/bili-vision-notes-skill
+```
+
+安装完成后重启 Codex，使新 skill 生效。
+
+如果你的环境更偏向显式 GitHub URL，也可以尝试：
+
+```powershell
+npx skills add https://github.com/le876/bili-vision-notes-skill
+```
+
+如果你想直接克隆仓库、单独运行脚本或做二次开发，也可以手动放到你的 skills 目录（或任意目录）：
 
 ```powershell
 # 示例：克隆到 skills 目录（自行替换为你的路径/仓库地址）
