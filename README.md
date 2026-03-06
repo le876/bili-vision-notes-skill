@@ -19,12 +19,12 @@
 
 ## 安装（Windows / PowerShell）
 
-当前 skill 的公开名称是 `bilibili-obsidian-notes`；在你真正修改 GitHub 仓库名之前，安装地址仍然是现有仓库 `le876/bili-vision-notes-skill`。
+当前 skill 的公开名称和 GitHub 仓库名都已经统一为 `bilibili-obsidian-notes`。
 
 如果你是通过 Skills CLI 安装到 Codex，优先使用：
 
 ```powershell
-npx skills add le876/bili-vision-notes-skill
+npx skills add le876/bilibili-obsidian-notes
 ```
 
 安装完成后重启 Codex，使新 skill 生效。
@@ -32,13 +32,13 @@ npx skills add le876/bili-vision-notes-skill
 如果你的环境更偏向显式 GitHub URL，也可以使用：
 
 ```powershell
-npx skills add https://github.com/le876/bili-vision-notes-skill
+npx skills add https://github.com/le876/bilibili-obsidian-notes
 ```
 
 如果你想直接克隆仓库、单独运行脚本或做二次开发，也可以手动放到你的 skills 目录：
 
 ```powershell
-git clone https://github.com/le876/bili-vision-notes-skill.git `
+git clone https://github.com/le876/bilibili-obsidian-notes.git `
   "$env:USERPROFILE\.codex\skills\bilibili-obsidian-notes"
 ```
 
@@ -116,4 +116,3 @@ python -X utf8 scripts\bili_snapshot.py `
 - 工作流说明：`docs/workflow.md`
 - 常见问题：`docs/troubleshooting.md`
 - Agent 使用说明：`SKILL.md`
-
