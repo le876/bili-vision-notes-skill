@@ -3,6 +3,8 @@
 把 B 站视频的字幕/关键帧整理成可复习的 Obsidian 学习笔记（同时提供：扫码登录、仅拉字幕、按时间点截图）。
 
 > 说明：本仓库只提供工具与流程，不包含任何受版权保护的视频/字幕内容。请自行确保符合平台条款与版权要求。
+>
+> 致谢：本仓库中的 B 站字幕拉取能力与 `BBDown.data` 兼容设计参考并受益于开源项目 [BBDown](https://github.com/nilaoda/BBDown) 的工程实践；当前仓库不依赖 `BBDown` 可执行文件，感谢其对社区的持续贡献。
 
 ## 功能
 
@@ -63,4 +65,3 @@ python -X utf8 scripts\bili_vision_notes.py `
 更多说明见：
 - `docs/workflow.md`
 - `docs/troubleshooting.md`
-
